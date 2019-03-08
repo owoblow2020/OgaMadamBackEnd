@@ -6,7 +6,7 @@ class MainRoute extends Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter basename={'/ogamadam-admin'}>
                 <div>
                     <Switch>
                     <Route path="/dashboard" component={Dashboard} exact />  

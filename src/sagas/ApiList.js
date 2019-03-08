@@ -1,4 +1,4 @@
-export const HOSTNAME = "http://localhost:50942";
+export const HOSTNAME = "http://35.178.210.241";
 export const LOGIN_API = HOSTNAME + "/api/Service/EmployeeLogin";
 
 

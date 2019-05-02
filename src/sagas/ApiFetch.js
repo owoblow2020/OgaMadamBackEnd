@@ -14,7 +14,7 @@ function* loginFetch(loginParam){
         })
     }).then((response) => response.json())
         .then((responseJson) => {
-            //console.log(responseJson);
+            console.log(responseJson);
             return responseJson;
         }).catch(function (err) {
             console.log(err);

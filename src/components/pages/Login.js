@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { Redirect } from 'react-router-dom';
 import { loginAction } from '../../actions/Index';
 
 class Login extends Component {
@@ -92,6 +91,8 @@ class Login extends Component {
 }
 
 const mapStateToProps = (state) => {
+  console.log(state);
+  console.log(state.LoginReducer);
   return {
     loginData: state.LoginReducer
   }

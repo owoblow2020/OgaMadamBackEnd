@@ -1,7 +1,6 @@
 {
   "name": "ogamadambackend",
   "version": "0.1.0",
-  "homepage": "http://35.178.210.241/ogamadam-admin",
   "private": true,
   "dependencies": {
     "react": "^16.8.2",
